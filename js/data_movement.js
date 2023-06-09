@@ -1,124 +1,124 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Se déplacer",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "Coût : 1m50 par 1m50",
+        description: "Coût de déplacement : 1m50 par 1m50 déplacés",
         reference: "PHB, pg. 190.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "Si vous avez plus d'une vitesse, comme votre vitesse de marche et une vitesse de vol, vous pouvez basculer entre vos vitesses pendant votre mouvement. Chaque fois que vous changez de vitesse, soustrayez la distance que vous avez déjà parcourue de la nouvelle vitesse.",
+            "Vous pouvez vous déplacer dans l'espace d'une créature non hostile.",
+            "Vous ne pouvez vous déplacer dans l'espace d'une créature hostile que si la créature est au moins deux tailles plus grande ou plus petite que vous.",
+            "L'espace d'une autre créature est un terrain difficile pour vous.",
+            "Qu'une créature soit un ami ou un ennemi, vous ne pouvez pas volontairement terminer votre mouvement dans son espace."
         ]
     },
     {
-        title: "Climb",
+        title: "Grimper",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        subtitle: "Coût : 3m par 1m50",
+        description: "Coût de déplacement : 3m par 1m50 escaladés",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Peut impliquer un test de Force (Athlétisme) si la montée est difficile"
         ]
     },
     {
-        title: "Swim",
+        title: "Nager",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "Coût : 3m par 1m50",
+        description: "Coût de déplacement : 3m par 1m50 nagés",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Peut impliquer un test de Force (Athlétisme) si la nage est difficile"
         ]
     },
     {
-        title: "Drop prone",
+        title: "Tomber au sol",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
+        subtitle: "Coût : 0m",
+        description: "Coût de déplacement : 0m (gratuit)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Vous pouvez tomber à plat ventre sans utiliser votre vitesse.",
+            "Pour vous déplacer en position couchée, vous devez ramper ou utiliser la magie comme la téléportation.",
+            "Tomber à terre ajoute la condition <i>À Terre</i> (les attaques de mêlée contre vous ont un avantage, les attaques à distance contre vous ont un désavantage, vos propres attaques ont un désavantage)"
         ]
     },
     {
-        title: "Crawl",
+        title: "Ramper",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "Coût : 3m par 1m50",
+        description: "Coût de déplacement : 3m par 1m50 rampés",
         reference: "PHB, pg. 182.",
         bullets: [
 
         ]
     },
     {
-        title: "Stand up",
+        title: "Se lever",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
+        subtitle: "Coût : moitié de la vitesse de déplacement",
         description: "Movement cost: half of your speed",
         reference: "PHB, pg. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "Vous ne pouvez pas vous lever si vous n'avez plus assez de mouvement ou si votre vitesse est de 0"
         ]
     },
     {
-        title: "High jump",
+        title: "Saut en hauteur",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        
+        subtitle: "Coût : 1m50 par 1m50",
+        description: "Coût de déplacement : 1m50 par 1m50 sautés",
+
         reference: "PHB, pg. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "Vous sautez en l'air d'un nombre de mètres égal à <b>votre valeur de Force divisée par 3 + 1</b> si vous prenez un élan d'au moins 3 mètres.",
+            "Lorsque vous faites un saut sans élan, vous ne pouvez sauter que la moitié de cette distance.",
+            "Vous pouvez étendre vos bras à la moitié de votre taille au-dessus de vous pendant le saut. Cela vous permet d'atteindre une hauteur égale à la hauteur du saut plus une fois et demi votre taille.",
+            "Dans certaines circonstances, votre MD peut vous permettre de faire un test de Force (Athlétisme) pour sauter plus haut que vous ne le pouvez normalement."
         ]
     },
     {
-        title: "Long jump",
+        title: "Saut en longueur",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Coût : 1m50 par 1m50",
+        description: "Coût de déplacement : 1m50 par 1m50 sautés",
         reference: "PHB, pg. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "Vous couvrez un certain nombre de mètres jusqu'à votre <b>valeur de force divisée par 3</b> si vous prenez un élan d'au moins 3 mètres",
+            "Lorsque vous faites un saut en longueur sans élan, vous ne pouvez sauter que la moitié de cette distance",
+            "Peut impliquer un test de Force (Athlétisme) DD 10 pour franchir un obstacle bas (pas plus haut qu'un quart de la distance du saut). Vous percutez l'obstacle lors d'un test raté.",
+            "Peut impliquer un test de Dextérité (Acrobatie) DD 10 pour atterrir sur vos pieds en terrain difficile. Vous atterrissez à terre sur un test raté."
         ]
     },
     {
-        title: "Improvise",
+        title: "Improviser",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Toute cascade ne figurant pas sur cette liste",
+        description: "Effectuez n'importe quel mouvement ou cascade que vous pouvez imaginer",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Lorsque vous décrivez un type de mouvement qui n'est pas détaillé ailleurs dans les règles, le MD vous indique si c'est possible et quel type de jet vous devez faire, le cas échéant, pour déterminer le succès ou l'échec."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Terrain difficile",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "Modificateur de coût : +1m50 par 1m50",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "Se déplacer en terrain difficile coûte 1m50 supplémentaires par 1m50 de mouvement",
         bullets: [
         ]
     },
     {
-        title: "Grapple move",
+        title: "Mouvement en empoignade",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
+        subtitle: "Modificateur : vitesse réduite de moitié",
+        description: "Traînez ou portez la créature que vous avez empoigné",
         reference: "PHB, pg. 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "Si vous vous déplacez tout en agrippant une autre créature, votre vitesse est réduite de moitié, à moins que la créature ne soit deux tailles ou plus plus petite que vous.",
+            "Voir l'action d'attaque pour savoir comment agripper une créature."
         ]
     }
 ]

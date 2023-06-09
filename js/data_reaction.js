@@ -1,36 +1,36 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Attaque d'apportunité",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "L'ennemi quitte votre portée",
+        description: "Vous pouvez rarement dépasser vos ennemis sans vous mettre en danger",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Déclencheur : la créature ennemie que vous pouvez voir quitte votre portée.",
+            "Effectuez une attaque au corps à corps contre la créature provoquante.",
+            "L'attaque interrompt le mouvement de la créature provoquante, se produisant juste avant que la créature ne quitte votre portée.",
+            "Les créatures ne provoquent pas d'attaque d'opportunité lorsqu'elles se téléportent ou lorsque quelqu'un ou quelque chose les déplace sans utiliser leur mouvement, action ou réaction."
         ]
     },
     {
-        title: "Readied action",
+        title: "Action préparée",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "Fait partie de l'action Se tenir prêt",
+        description: "Exécutez la réaction spécifiée par votre action Se tenir prêt",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Déclencheur : spécifié par votre action <i>Se tenir prêt</i>."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lancer un sort",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Temps d'incantation de 1 réaction",
+        description: "Lancer un sort avec un temps d'incantation de 1 réaction",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Déclencheur : spécifié par le sort.",
+            "Pour plus de détails, consultez l'action <i>Lancer un sort</i>."
         ]
     }
 ]
