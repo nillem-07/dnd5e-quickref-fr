@@ -11,8 +11,8 @@ data_environment_obscurance = [
     },
     {
         title: "Très obscurci",
-        icon: "lightning-tear",
-        subtitle: "Aveuglant",
+        icon: "sight-disabled",
+        subtitle: "Impossible de voir",
         description: "Obscurité, brouillard opaque, feuillage dense",
         reference: "PHB, pg. 183.",
         bullets: [
@@ -70,7 +70,7 @@ data_environment_vision = [
     },
     {
         title: "Vision dans le noir",
-        icon: "semi-closed-eye",
+        icon: "night-vision",
         subtitle: "Vision limitée dans l'obscurité",
         description: "Une créature avec la vision dans le noir peut mieux voir dans l'obscurité ou dans des conditions de faible luminosité, dans un certain rayon",
         reference: "PHB, pgs. 183-184.",

@@ -14,32 +14,6 @@ data_action = [
         ]
     },
     {
-        title: "Empoigner",
-        icon: "grab",
-        subtitle: "Attaque spéciale au corps à corps",
-        description: "Tenter d'attraper une créature ou de lutter avec elle",
-        reference: "PHB, pg. 195.",
-        bullets: [
-          "Vous pouvez utiliser l'action <i>Attaquer</i> pour effectuer une attaque spéciale au corps à corps, une empoignade. Si vous êtes capable d'effectuer plusieurs attaques avec l'action Attaquer, cette attaque remplace l'une d'entre elles.",
-           "La cible de votre empoignade ne doit pas faire plus d'une taille de plus que vous, et elle doit être à votre portée.",
-           "Avec au moins une main libre, vous tentez de saisir la cible en effectuant un test de Force (Athlétisme) contesté par le test de Force (Athlétisme) ou de Dextérité (Acrobatie) de la cible (la cible choisit la capacité à utiliser). ",
-           "Si vous réussissez, vous soumettez la cible à la condition Aggripé (sa vitesse est réduite à 0)."
-        ]
-    },
-    {
-        title: "Bousculer",
-        icon: "hand",
-        subtitle: "Attaque spéciale au corps à corps",
-        description: "Poussez une créature, soit pour la mettre à terre, soit pour la repousser",
-        reference: "PHB, pg. 195.",
-        bullets: [
-          "En utilisant l'action <i>Attaquer</i>, vous pouvez effectuer une attaque spéciale au corps à corps pour repousser une créature. Si vous êtes capable d'effectuer plusieurs attaques avec l'action Attaquer, cette attaque remplace l'une d'entre elles.",
-           "La cible de votre poussée ne doit pas être plus grande d'une taille que vous et elle doit être à votre portée.",
-           "Vous faites un jet de Force (Athlétisme) contesté par le jet de Force (Athlétisme) ou de Dextérité (Acrobatie) de la cible (la cible choisit la capacité à utiliser).",
-           "Si vous remportez l'oppposition, soit vous renversez la cible, soit vous la poussez à 1,50m de vous."
-        ]
-    },
-    {
         title: "Jeter un sort",
         icon: "magic-swirl",
         subtitle: "Temps d'incantation de 1 action",
@@ -53,7 +27,7 @@ data_action = [
         ]
     },
     {
-        title: "Sprinter",
+        title: "Foncer",
         icon: "sprint",
         subtitle: "Double vitesse de déplacement",
         description: "Gagnez du mouvement supplémentaire pour le tour en cours",
@@ -73,7 +47,7 @@ data_action = [
     },
     {
         title: "Esquiver",
-        icon: "aura",
+        icon: "dodging",
         subtitle: "Améliore vos défenses",
         description: "Se concentrer entièrement sur la prévention des attaques",
         reference: "PHB, pg. 192.",
@@ -107,7 +81,7 @@ data_action = [
     },
     {
         title: "Utiliser un objet",
-        icon: "snatch",
+        icon: "swap-bag",
         subtitle: "Interagir, utiliser des capacités spéciales",
         description: "Interagissez avec un deuxième objet ou utilisez des capacités d'objet spéciales",
         reference: "PHB, pg. 193.",
@@ -134,7 +108,7 @@ data_action = [
         title: "Chercher",
         icon: "magnifying-glass",
         subtitle: "",
-        description: "Consacrez votre attention à trouver quelque chose",
+        description: "Consacrer votre attention à trouver quelque chose",
         reference: "PHB, pg. 193.",
         bullets: [
             "Selon la nature de votre recherche, le MJ peut vous demander de faire un jet de Sagesse (Perception) ou un jet d'Intelligence (Investigation)."
@@ -185,4 +159,141 @@ data_action = [
             "Lorsque vous décrivez une action non détaillée ailleurs dans les règles, le MJ vous indique si cette action est possible et quel type de jet vous devez effectuer, le cas échéant, pour déterminer le succès ou l'échec."
         ]
     }
+]
+
+data_special_attack = [
+  {
+      title: "Empoigner",
+      icon: "grab",
+      subtitle: "Aggriper une créature",
+      description: "Tenter d'aggriper une créature ou de lutter avec elle",
+      reference: "PHB, pg. 195.",
+      bullets: [
+        "Vous pouvez utiliser l'action <i>Attaquer</i> pour effectuer une attaque spéciale au corps à corps, une empoignade. Si vous êtes capable d'effectuer plusieurs attaques avec l'action Attaquer, cette attaque remplace l'une d'entre elles.",
+         "La cible de votre empoignade ne doit pas faire plus d'une taille de plus que vous, et elle doit être à votre portée.",
+         "Avec au moins une main libre, vous tentez de saisir la cible en effectuant un test de Force (Athlétisme) contesté par le test de Force (Athlétisme) ou de Dextérité (Acrobatie) de la cible (la cible choisit la capacité à utiliser). ",
+         "Si vous réussissez, vous soumettez la cible à la condition Aggripé (sa vitesse est réduite à 0).",
+      ]
+  },
+  {
+      title: "Bousculer",
+      icon: "hand",
+      subtitle: "Repousser une créature",
+      description: "Pousser une créature, soit pour la mettre à terre, soit pour la repousser",
+      reference: "PHB, pg. 195.",
+      bullets: [
+        "En utilisant l'action <i>Attaquer</i>, vous pouvez effectuer une attaque spéciale au corps à corps pour repousser une créature. Si vous êtes capable d'effectuer plusieurs attaques avec l'action Attaquer, cette attaque remplace l'une d'entre elles.",
+         "La cible de votre poussée ne doit pas faire plus d'une taille de plus que vous, et elle doit être à votre portée.",
+         "Vous faites un jet de Force (Athlétisme) contesté par le jet de Force (Athlétisme) ou de Dextérité (Acrobatie) de la cible (la cible choisit la capacité à utiliser).",
+         "Si vous remportez l'oppposition, soit vous renversez la cible, soit vous la poussez à 1,50m de vous.",
+         "Vous pouvez également tenter de pousser la cible à 1,50m dans un espace différent à portée (sur le côté, pas plus loin de vous), mais vous avez alors un désavantage à votre jet."
+      ]
+  },
+  {
+      title: "Distraire",
+      icon: "distraction",
+      subtitle: "Empêcher une créature d'utiliser sa réaction",
+      description: "Empêcher une créature d'utiliser sa réaction",
+      reference: "Homebrew (Martial Prowess, pg. 5.)",
+      bullets: [
+        "Lorsque vous effectuez l'action <i>Attaquer</i>, vous pouvez effectuer une attaque spéciale au corps à corps pour distraire un ennemi. Si vous êtes capable d'effectuer plusieurs attaques avec l'action Attaquer, cette attaque remplace l'une d'entre elles.",
+        "Effectuez un test de Dextérité (Escamotage) contre le test de Sagesse (Perception) d'une créature située à 1,50 mètre ou moins de vous.",
+        "Si vous remportez l'opposition, la créature ne peut pas utiliser de réaction avant le début de son prochain tour.",
+      ]
+  },
+  {
+      title: "Assomer",
+      icon: "knockout",
+      subtitle: "Assomer une créature non attentive",
+      description: "Rendre inconsciente une créature surprise, incapable d'agir ou entravée",
+      reference: "Homebrew (Martial Prowess, pg. 6.)",
+      bullets: [
+        "Une fois par tour, lorsque vous touchez une créature surprise, incapable d'agir ou entravée avec une attaque contondante, vous pouvez essayer de l'assommer.",
+        "Lancez vos dégâts normalement mais au lieu de subir des dégâts, la créature doit réussir un jet de sauvegarde de Constitution contre un DD égal à 10 ou la moitié de votre jet de dégâts, selon le plus élevé, ou elle tombe <i>inconsciente</i> pendant 1 minute.",
+        "La cible se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la réveiller.",
+        "Cette capacité n'a aucun effet sur les constructions et les morts-vivants"
+      ]
+  },
+  {
+      title: "Projeter",
+      icon: "catapult",
+      subtitle: "Lancer une créature aggripée",
+      description: "Tenter de projeter une créature aggripée",
+      reference: "Homebrew (The Warrior's Codex, pg. 87.)",
+      bullets: [
+        "Lorsque vous agrippez une créature, vous pouvez utiliser l'action <i>Attaquer</i> pour effectuer une attaque spéciale au corps à corps afin de projeter la créature agrippée. Si vous pouvez effectuer plusieurs attaques avec l'action Attaquer, cette attaque remplace l'une d'entre elles.",
+        "Pour lancer une autre créature, vous devez réussir un test de Force (Athlétisme), le DD étant déterminé à la fois par votre taille et par la taille de l'autre créature, comme ci-dessous. Si vous réussissez, vous projetez la créature à une distance pouvant atteindre 1,5 fois votre modificateur de Force.",
+        "Lorsqu'elle atterrit, la créature projetée subit 1d6 dégâts contondants pour chaque 3 mètres parcourus. Si vous lancez la créature sur une distance plus courte, elle subit des dégâts de chute comme si vous l'aviez lancée sur toute la distance.",
+        "La créature projetée atterrit <i>à terre</i> à moins qu'elle ne réussisse un test de Dextérité (Acrobatie) avec un DD égal au test de Force (Athlétisme) utilisé pour la lancer, ou utilise une capacité ou un sort (comme <i>feuille morte</i>) pour atterrir en toute sécurité.",
+        "<table><tr><th style='text-align:center'>Taille</th><th></th><th></th><th style='text-align:center'>DD</th></tr><tr><td style='text-align:center'>Minuscule</td><td></td><td></td><td style='text-align:center'>5</td></tr><tr><td style='text-align:center'>Petite</td><td></td><td></td><td style='text-align:center'>11</td></tr><tr><td style='text-align:center'>Moyenne</td><td></td><td></td><td style='text-align:center'>17</td></tr><tr><td style='text-align:center'>Grande</td><td></td><td></td><td style='text-align:center'>23</td></tr><tr><td style='text-align:center'>Très Grande</td><td></td><td></td><td style='text-align:center'>29</td></tr><tr><td style='text-align:center'>Gigantesque</td><td></td><td></td><td style='text-align:center'>35</td></tr></table>",
+        "Plus vous êtes grand, plus il est facile de lancer d'autres créatures. L'inverse est vrai si vous êtes plus petit. Les DD pour lancer une autre créature augmentent de 5 si votre taille est Petite, et de 10 si votre taille est Minuscule. Ils diminuent de 5 si votre taille est Grande, de 10 si votre taille est Très Grande et de 15 si votre taille est Gigantesque."
+      ]
+  },
+]
+
+data_special_action = [
+  {
+      title: "Désarmer",
+      icon: "drop-weapon",
+      subtitle: "Tenter de désarmer une créature",
+      description: "Tenter de désarmer une créature",
+      reference: "Homebrew (Martial Prowess, pg. 5.)",
+      bullets: [
+        "Par une action, vous essayez de faire tomber une arme ou un autre objet des mains d'une cible en effectuant un jet d'attaque contesté par le test de Force (Athlétisme) ou de Dextérité (Acrobates) de la cible.",
+        "Si vous gagnez, l'attaque ne cause aucun dégâts ni autre effet néfaste, mais le défenseur laisse tomber l'objet, qui atterrit dans un espace inoccupé de votre choix à moins de 3m ou moins de celui-ci. Les objets portés ou attachés ne peuvent pas être désarmés.",
+        "Vous avez un désavantage à votre jet d'attaque si la cible tient l'objet à deux mains ou plus. La cible a un avantage sur son test de capacité si elle est plus grande que vous, ou un désavantage si elle est plus petite."
+      ]
+  },
+  {
+      title: "Passer en force/finesse",
+      icon: "thrust",
+      subtitle: "Traverser l'espace d'une créature hostile",
+      description: "Tenter de traverser l'espace d'une créature hostile en force ou en finesse",
+      reference: "Homebrew (Martial Prowess, pg. 6.)",
+      bullets: [
+        "Lorsque vous essayez de traverser l'espace d'une créature hostile, vous pouvez essayer de forcer le passage. Par une action ou une action bonus (votre choix), effectuez un test de Force (Athlétisme) contesté par le test de Force (Athlétisme) de la créature.",
+        "Si vous gagnez, vous pouvez traverser (mais pas y terminer votre tour) l'espace de la créature hostile une fois durant ce tour.",
+        "Vous avez un avantage sur votre jet si vous êtes plus grand que la créature, ou un désavantage si vous êtes plus petit.",
+        "Alternativement, vous pouvez essayer d'esquiver et de contourner la créature hostile. Par une action ou une action bonus (votre choix), effectuez un test de Dextérité (Acrobaties) contesté par le test de Dextérité (Acrobaties) de la créature.",
+        "Si vous gagnez, vous pouvez traverser (mais pas y terminer votre tour) l'espace de la créature hostile une fois durant ce tour. Si la cible gagne, elle peut utiliser sa réaction pour tenter de vous repousser ou de vous renverser."
+      ]
+  },
+  {
+      title: "Retenir",
+      icon: "padlock",
+      subtitle: "Immobiliser complètement une cible déjà aggripée",
+      description: "Immobiliser complètement une cible déjà aggripée",
+      reference: "Homebrew (Martial Prowess, pg. 6.)",
+      bullets: [
+        "Lorsque vous agrippez une cible de votre taille ou plus petite, vous pouvez essayer de l'immobiliser avec une main libre supplémentaire. En tant qu'action spéciale au corps à corps, effectuez un autre test d'empoignage.",
+        "Si vous gagnez, vous et la cible êtes entravés jusqu'à ce que l'empoignade soit brisée et vous pouvez choisir l'un des effets supplémentaires suivants :<ul><li>Vous manœuvrez vers le côté ou l'arrière de la cible. Tant qu'elle est entravée, la créature ne peut pas vous attaquer.</li><li>Vous épinglez les mains et les bras de la cible. Tant qu'elle est entravée, la créature ne peut pas lancer de sort avec une composante somatique ou matérielle, dégainer ou attaquer avec une arme non légère, ou effectuer l'action Utiliser un objet.</li><li>Vous couvrez la bouche de la cible et étouffez sa voix. Tant qu'elle est retenue, la créature ne peut pas être entendue clairement au-delà de 4,5m, ou du tout au-delà de 9 mètres. Si la créature tente de lancer un sort à composante verbale, elle doit réussir un jet de sauvegarde de Dextérité contre un DD de 8 + votre modificateur de Force ou le sort échoue mais l'emplacement de sort n'est pas perdu. Une créature plus petite que vous a un désavantage à ce jet de sauvegarde.</li></ul>",
+        "Une créature ne peut être soumise qu'à un seul de ces effets par chaque créature qui l'agrippe."
+      ]
+  },
+  {
+      title: "Roquer",
+      icon: "body-swapping",
+      subtitle: "Échanger de position avec une créature consentante",
+      subtitle: "Échanger de position avec une créature consentante",
+      reference: "Homebrew (Martial Prowess, pg. 5.)",
+      bullets: [
+        "Par une action, vous pouvez vous déplacer dans l'espace d'une créature consentante à 1,50 mètre ou moins de vous, déplaçant la créature dans l'espace que vous occupiez auparavant.",
+        "Vous devez tous les deux tenir dans l'espace disponible.",
+        "Ni vous ni la cible ne provoquez d'attaques d'opportunité pour ce mouvement."
+      ]
+  },
+  {
+      title: "Coup de grâce",
+      icon: "grim-reaper",
+      subtitle: "Achever un ennemi en vous exposant",
+      description: "Achever un ennemi en vous exposant à des attaques d'opportunité",
+      reference: "Homebrew (Martial Prowess, pg. 5.)",
+      bullets: [
+        "Par une action, vous essayez d'achever un adversaire inconscient, paralysé ou autrement rendu incapable d'agir et d'utiliser un mouvement (l'état <i>incapable d'agir</i> n'est pas suffisant).",
+        "Vous infligez un coup critique automatique avec une attaque de mêlée (aucun jet d'attaque n'est nécessaire).",
+        "Si la créature survit aux dégâts, elle doit réussir un jet de sauvegarde de Constitution contre un DD égal à 10 ou à la moitié des dégâts infligés, selon le plus élevé. En cas d'échec, il meurt.",
+        "Un roublard inflige des dégâts d'attaque sournoise lorsqu'il porte un coup de grâce.",
+        "Délivrer un coup de grâce provoque des attaques d'opportunité des créatures à 1,50 mètre ou moins de vous et réduit votre vitesse à 0 jusqu'à la fin du tour."
+      ]
+  },
 ]

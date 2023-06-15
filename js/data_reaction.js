@@ -1,6 +1,6 @@
 data_reaction = [
     {
-        title: "Attaque d'apportunité",
+        title: "Attaque d'opportunité",
         icon: "crossed-swords",
         subtitle: "L'ennemi quitte votre portée",
         description: "Vous pouvez rarement dépasser vos ennemis sans vous mettre en danger",

@@ -34,7 +34,7 @@ data_condition = [
     },
     {
         title: "Épuisement",
-        icon: "crawl",
+        icon: "despair",
         subtitle: "Vous êtes épuisé",
         description: "L'épuisement est mesuré en six niveaux",
         reference: "PHB, pg. 291.",
@@ -92,14 +92,16 @@ data_condition = [
     },
     {
         title: "Paralisé",
-        icon: "internal-injury",
+        icon: "bolt-spell-cast",
         subtitle: "Vous êtes paralisé",
         description: "Vous ne pouvez rien faire",
+        reference: "PHB, pg. 291. & Homebrew (The Warrior's Codex, pg. 89.)",
         bullets: [
             "Vous êtes incapable d'agir et ne pouvez ni bouger ni parler.",
             "Les jets d'attaque contre vous ont un avantage.",
-            "Toute attaque qui vous touche est un coup critique si l'attaquant se trouve à moins de 1,50 mètre de vous.",
-            "Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité."
+            "Toute attaque au corps à corps qui vous touche est un coup critique.",
+            "Vous échouez automatiquement aux jets de sauvegarde et de compétence de Force et de Dextérité.",
+
         ]
     },
     {
@@ -107,19 +109,19 @@ data_condition = [
         icon: "stone-pile",
         subtitle: "Vous êtes transformé en pierre",
         description: "Vous êtes transformé, avec tous les objets non magiques que vous portez ou transportez, en une substance solide inanimée (généralement de la pierre)",
-        reference: "PHB, pg. 291.",
+        reference: "PHB, pg. 291. & Homebrew (The Warrior's Codex, pg. 89.)",
         bullets: [
             "Votre poids augmente d'un facteur dix et vous cessez de vieillir.",
             "Vous êtes incapable d'agir, ne pouvez ni bouger ni parler et vous ignorez ce qui vous entoure.",
             "Les jets d'attaque contre vous ont un avantage.",
-            "Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+            "Vous échouez automatiquement aux jets de sauvegarde et de compétence de Force et de Dextérité.",
             "Vous avez une résistance à tous les dégâts.",
             "Vous êtes immunisé contre le poison et la maladie, bien qu'un poison ou une maladie déjà présent dans votre système ne soit que suspendu, pas neutralisé."
         ]
     },
     {
         title: "Empoisonné",
-        icon: "deathcab",
+        icon: "poison-bottle",
         subtitle: "Vous êtes empoisonné",
         description: "Vous êtes empoisonné",
         reference: "PHB, pg. 292.",
@@ -132,11 +134,12 @@ data_condition = [
         icon: "crawl",
         subtitle: "Vous êtes à terre",
         description: "Vous êtes à terre",
-        reference: "PHB, pg. 292.",
+        reference: "PHB, pg. 292. & Homebrew (The Warrior's Codex, pg. 89.)",
         bullets: [
             "Votre seule option de mouvement est de ramper, sauf si vous vous levez.",
             "Vous avez un désavantage aux jets d'attaque.",
-            "Les jets d'attaque contre vous ont un avantage si l'attaquant est à moins de 1,50 mètre de vous, sinon le jet d'attaque a un désavantage."
+            "Les jets d'attaque au corps à corps contre vous ont un avantage.",
+            "Les jets d'attaque à distance contre vous ont un désavantage, sauf si l'attaquant est surélevé d'au moins 3 mètres par rapport à vous."
         ]
     },
     {
@@ -154,14 +157,14 @@ data_condition = [
     },
     {
         title: "Étourdi",
-        icon: "internal-injury",
+        icon: "star-swirl",
         subtitle: "Vous êtes étourdi",
         description: "Vous êtes étourdi",
-        reference: "PHB, pg. 292.",
+        reference: "PHB, pg. 292 & Homebrew (The Warrior's Codex, pg. 89.).",
         bullets: [
             "Vous êtes incapable d'agir, ne pouvez pas bouger et ne pouvez parler qu'en balbutiant.",
             "Les jets d'attaque contre vous ont un avantage.",
-            "Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité."
+            "Vous échouez automatiquement aux jets de sauvegarde et de compétence de Force et de Dextérité."
         ]
     },
     {
@@ -169,13 +172,13 @@ data_condition = [
         icon: "coma",
         subtitle: "Vous êtes inconscient",
         description: "Vous êtes inconscient",
-        reference: "PHB, pg. 292.",
+        reference: "PHB, pg. 292. & Homebrew (The Warrior's Codex, pg. 89.)",
         bullets: [
             "Vous êtes incapable d'agir, ne pouvez ni bouger ni parler et vous ignorez ce qui vous entoure.",
             "Vous laissez tomber tout ce que vous tenez et tombez à terre.",
             "Les jets d'attaque contre vous ont un avantage.",
-            "Toute attaque qui vous touche est un coup critique si l'attaquant se trouve à moins de 1,50 mètre de vous.",
-            "Vous échouez automatiquement aux jets de sauvegarde de Force et de Dextérité.",
+            "Toute attaque au corps à corps qui vous touche est un coup critique.",
+            "Vous échouez automatiquement aux jets de sauvegarde et de compétence de Force et de Dextérité.",
         ]
     },
     {
